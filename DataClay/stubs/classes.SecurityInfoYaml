@@ -1,0 +1,295 @@
+!!dataclay.util.management.stubs.StubInfo
+applicantID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+classID: !!dataclay.util.ids.MetaClassID 'bbb3d5a8-a54a-4428-9d38-82637bee316c'
+className: classes.SecurityInfo
+contracts: !!set {!!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280': null}
+implementations:
+  $$setdevice_security: &id007 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID 'e1d88915-b698-42d2-ac10-378a2b540e11'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'f6ba33ab-1c72-4899-8e07-43fd374d05db'
+    parameters:
+      param0: &id001 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: Z
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'e1d88915-b698-42d2-ac10-378a2b540e11'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setdevice_security
+  $$setnetwork_security: &id008 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '27e1180f-fcb4-4ea8-b8c4-5b9d9e48177b'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '7a6692c8-04c5-4015-971d-b612ef8f8dd4'
+    parameters:
+      param0: *id001
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '27e1180f-fcb4-4ea8-b8c4-5b9d9e48177b'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setnetwork_security
+  $$getnetwork_security: &id009 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '6e40dd44-e627-4937-a4c1-b62d34e24a12'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '6a7c1e9b-9e1b-43cc-93ce-b353ca941241'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '6e40dd44-e627-4937-a4c1-b62d34e24a12'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id001
+    signature: $$getnetwork_security
+  $$getdevice_security: &id010 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '2230db02-abd0-4dc6-85c0-cab391e20570'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '94cb0ed1-2e31-49c0-9b26-177da350cada'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '2230db02-abd0-4dc6-85c0-cab391e20570'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id001
+    signature: $$getdevice_security
+  __setUpdate__: &id004 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID 'cc44ae69-2098-4db5-8f56-6939bcf0c54d'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '19cccc88-010b-40c3-93e3-78c080a822b5'
+    parameters:
+      afterUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      beforeUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      obj: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+      property_name: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      value: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+    paramsOrder: [obj, property_name, value, beforeUpdate, afterUpdate]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'cc44ae69-2098-4db5-8f56-6939bcf0c54d'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id002 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: V
+      typeName: null
+    signature: __setUpdate__
+  $$getdata_privacy: &id005 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '692966c3-4c9d-45a4-950e-7626468d2f5d'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '03124c0b-2156-4f3a-bb92-3c8b1c2d28e2'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '692966c3-4c9d-45a4-950e-7626468d2f5d'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id001
+    signature: $$getdata_privacy
+  __init__: &id012 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '07e6e320-5933-4aff-b004-30608d471b7a'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '7891289f-f9d6-475c-a436-a23b03b9dee1'
+    parameters:
+      data_privacy: *id001
+      device_security: *id001
+      network_security: *id001
+    paramsOrder: [data_privacy, network_security, device_security]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '07e6e320-5933-4aff-b004-30608d471b7a'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id002
+    signature: __init__
+  $$setdata_privacy: &id011 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '3d8a8e2b-28eb-49a4-8b57-b9abc9c07fd2'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '290854b4-91e5-4c55-8f18-bd082d831df0'
+    parameters:
+      param0: *id001
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '3d8a8e2b-28eb-49a4-8b57-b9abc9c07fd2'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setdata_privacy
+  to_dict: &id006 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID '8eb440ff-41ed-437a-bd98-d8fc661dba00'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '38368bce-c860-4146-ac24-d62c7bb826d1'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '8eb440ff-41ed-437a-bd98-d8fc661dba00'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: to_dict
+  _to_dict: &id003 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.SecurityInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '049e3e79-180d-42a1-9005-8fe82a550332'
+    localImplID: !!dataclay.util.ids.ImplementationID 'a89dc624-0a83-492a-a0a1-3bb553df0cb6'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'b6b2d83e-7e4b-4429-a4f5-9a1185bf7155'
+    parameters:
+      fields: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.list[str]
+        typeName: null
+    paramsOrder: [fields]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'a89dc624-0a83-492a-a0a1-3bb553df0cb6'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: _to_dict
+implementationsByID:
+  a89dc624-0a83-492a-a0a1-3bb553df0cb6: *id003
+  cc44ae69-2098-4db5-8f56-6939bcf0c54d: *id004
+  692966c3-4c9d-45a4-950e-7626468d2f5d: *id005
+  8eb440ff-41ed-437a-bd98-d8fc661dba00: *id006
+  e1d88915-b698-42d2-ac10-378a2b540e11: *id007
+  27e1180f-fcb4-4ea8-b8c4-5b9d9e48177b: *id008
+  6e40dd44-e627-4937-a4c1-b62d34e24a12: *id009
+  2230db02-abd0-4dc6-85c0-cab391e20570: *id010
+  3d8a8e2b-28eb-49a4-8b57-b9abc9c07fd2: *id011
+  07e6e320-5933-4aff-b004-30608d471b7a: *id012
+namespace: model_mf2c
+namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+parentClassName: null
+properties:
+  data_privacy: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '03124c0b-2156-4f3a-bb92-3c8b1c2d28e2'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'e04869f0-898a-4924-ab11-0dea8d4d8891'
+    propertyName: data_privacy
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID '290854b4-91e5-4c55-8f18-bd082d831df0'
+  device_security: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '94cb0ed1-2e31-49c0-9b26-177da350cada'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '38135ead-519b-4697-858a-1c6409ad918c'
+    propertyName: device_security
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID 'f6ba33ab-1c72-4899-8e07-43fd374d05db'
+  network_security: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '6a7c1e9b-9e1b-43cc-93ce-b353ca941241'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '3f3e1470-f29e-4fbb-af31-ffae0dff574f'
+    propertyName: network_security
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID '7a6692c8-04c5-4015-971d-b612ef8f8dd4'
+propertyListWithNulls: [data_privacy, network_security, device_security]

@@ -1,0 +1,36 @@
+# dataClay header
+# This is a Stub, to be used for the user client
+from dataclay import dclayMethod, DataClayObject
+
+# Imports required by the following class
+
+# Definition of dataClay object class: BehaviourInfo
+class BehaviourInfo(DataClayObject):
+
+    @dclayMethod(obj='anything', property_name='str', value='anything', beforeUpdate='str', afterUpdate='str')
+    def __setUpdate__(self, obj, property_name, value, beforeUpdate, afterUpdate):
+        if beforeUpdate is not None:
+            getattr(self, beforeUpdate)(property_name, value)
+        object.__setattr__(obj, "%s%s" % ("_dataclay_property_", property_name), value)
+        if afterUpdate is not None:
+            getattr(self, afterUpdate)(property_name, value)
+    @dclayMethod(fields="list<str>", return_="dict")
+    def _to_dict(self, fields):
+        return {field: self.__getattribute__(field) for field in fields}
+    @dclayMethod(return_="dict")
+    def to_dict(self):
+        fields = [
+            "mobile",
+            "reliability",
+            "trust",
+            "leader_capable"
+        ]
+        return self._to_dict(fields)
+    @dclayMethod(mobile="bool", reliability="str", trust="str", leader_capable="bool")
+    def __init__(self, mobile, reliability, trust, leader_capable):
+        self.mobile = mobile
+        self.reliability = reliability
+        self.trust = trust
+        self.leader_capable = leader_capable
+    pass
+# End of class definition

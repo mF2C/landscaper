@@ -1,0 +1,44 @@
+# dataClay header
+# This is a Stub, to be used for the user client
+from dataclay import dclayMethod, DataClayObject
+
+# Imports required by the following class
+
+# Definition of dataClay object class: DynamicInfo
+class DynamicInfo(DataClayObject):
+
+    @dclayMethod(fields="list<str>", return_="dict")
+    def _to_dict(self, fields):
+        return {field: self.__getattribute__(field) for field in fields}
+    @dclayMethod(return_="dict")
+    def to_dict(self):
+        fields = [
+            "available_RAM_size",
+            "available_RAM_percent",
+            "available_storage_size",
+            "available_storage_percent",
+            "available_CPU_percent",
+            "remaining_power_seconds",
+            "remaining_power_percent",
+            "location"
+        ]
+        return self._to_dict(fields)
+    @dclayMethod(RAM_size="int", RAM_percent="int", storage_size="int", storage_percent="int", CPU_percent="int", power_seconds="int", power_percent="int", location="str")
+    def __init__(self, RAM_size, RAM_percent, storage_size, storage_percent,  CPU_percent, power_seconds, power_percent, location):
+        self.available_RAM_size = RAM_size
+        self.available_RAM_percent = RAM_percent
+        self.available_storage_size = storage_size
+        self.available_storage_percent = storage_percent
+        self.available_CPU_percent = CPU_percent
+        self.remaining_power_seconds = power_seconds
+        self.remaining_power_percent = power_percent
+        self.location = location
+    @dclayMethod(obj='anything', property_name='str', value='anything', beforeUpdate='str', afterUpdate='str')
+    def __setUpdate__(self, obj, property_name, value, beforeUpdate, afterUpdate):
+        if beforeUpdate is not None:
+            getattr(self, beforeUpdate)(property_name, value)
+        object.__setattr__(obj, "%s%s" % ("_dataclay_property_", property_name), value)
+        if afterUpdate is not None:
+            getattr(self, afterUpdate)(property_name, value)
+    pass
+# End of class definition

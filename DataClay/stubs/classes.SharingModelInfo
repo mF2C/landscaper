@@ -1,0 +1,36 @@
+# dataClay header
+# This is a Stub, to be used for the user client
+from dataclay import dclayMethod, DataClayObject
+
+# Imports required by the following class
+
+# Definition of dataClay object class: SharingModelInfo
+class SharingModelInfo(DataClayObject):
+
+    @dclayMethod(fields="list<str>", return_="dict")
+    def _to_dict(self, fields):
+        return {field: self.__getattribute__(field) for field in fields}
+    @dclayMethod(obj='anything', property_name='str', value='anything', beforeUpdate='str', afterUpdate='str')
+    def __setUpdate__(self, obj, property_name, value, beforeUpdate, afterUpdate):
+        if beforeUpdate is not None:
+            getattr(self, beforeUpdate)(property_name, value)
+        object.__setattr__(obj, "%s%s" % ("_dataclay_property_", property_name), value)
+        if afterUpdate is not None:
+            getattr(self, afterUpdate)(property_name, value)
+    @dclayMethod(RAM_size="int", storage_size="int", CPU_percent="int", bandwidth_size="int")
+    def __init__(self, RAM_size, storage_size, CPU_percent, bandwidth_size):
+        self.shared_RAM_size = RAM_size
+        self.shared_storage_size = storage_size
+        self.shared_CPU_percent = CPU_percent
+        self.shared_bandwidth_size = bandwidth_size
+    @dclayMethod(return_="dict")
+    def to_dict(self):
+        fields = [
+            "shared_RAM_size",
+            "shared_storage_size",
+            "shared_CPU_percent",
+            "shared_bandwidth_size"
+        ]
+        return self._to_dict(fields)
+    pass
+# End of class definition

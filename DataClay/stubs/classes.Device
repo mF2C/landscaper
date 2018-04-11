@@ -1,0 +1,41 @@
+# dataClay header
+# This is a Stub, to be used for the user client
+from dataclay import dclayMethod, DataClayObject
+
+# Imports required by the following class
+
+# Definition of dataClay object class: Device
+class Device(DataClayObject):
+
+    @dclayMethod(return_="str")
+    def get_CPU_info(self):
+        return self.static_info.CPU_info
+    @dclayMethod(hwloc="str")
+    def set_hwloc(self, hwloc):
+        self.static_info.hwloc = hwloc
+    @dclayMethod(obj='anything', property_name='str', value='anything', beforeUpdate='str', afterUpdate='str')
+    def __setUpdate__(self, obj, property_name, value, beforeUpdate, afterUpdate):
+        if beforeUpdate is not None:
+            getattr(self, beforeUpdate)(property_name, value)
+        object.__setattr__(obj, "%s%s" % ("_dataclay_property_", property_name), value)
+        if afterUpdate is not None:
+            getattr(self, afterUpdate)(property_name, value)
+    @dclayMethod(return_="str")
+    def get_hwloc(self):
+        return self.static_info.hwloc
+    @dclayMethod(device_id="str", owner="model_mf2c.classes.User", static_info="model_mf2c.classes.StaticInfo", dynamic_info="model_mf2c.classes.DynamicInfo", network_info="model_mf2c.classes.NetworkInfo", behaviour_info="model_mf2c.classes.BehaviourInfo", security_info="model_mf2c.classes.SecurityInfo", attached_components="list<model_mf2c.classes.Component>", sharing_model_info="model_mf2c.classes.SharingModelInfo")
+    def __init__(self, device_id, owner, static_info, dynamic_info, network_info, behaviour_info, security_info, attached_components, sharing_model_info):
+        self.device_id = device_id
+        self.owner = owner
+        self.static_info = static_info
+        self.dynamic_info = dynamic_info
+        self.network_info = network_info
+        self.behaviour_info = behaviour_info
+        self.security_info = security_info
+        self.attached_components = attached_components
+        self.sharing_model_info = sharing_model_info
+    @dclayMethod(cpu_info="str")
+    def set_CPU_info(self, cpu_info):
+        self.static_info.CPU_info = cpu_info
+    pass
+# End of class definition

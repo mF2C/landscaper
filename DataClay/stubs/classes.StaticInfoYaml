@@ -1,0 +1,884 @@
+!!dataclay.util.management.stubs.StubInfo
+applicantID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+classID: !!dataclay.util.ids.MetaClassID '5cdaf83f-fb51-4125-bd62-407d91f31405'
+className: classes.StaticInfo
+contracts: !!set {!!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280': null}
+implementations:
+  $$setsystem_architecture: &id021 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '0f147080-1c90-4f5b-baf5-017d48893143'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '3964c9fa-dd88-4b5c-820f-0dd96ee843b6'
+    parameters:
+      param0: &id006 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '0f147080-1c90-4f5b-baf5-017d48893143'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setsystem_architecture
+  $$setoperating_system: &id022 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '64021cbb-aa4d-43e1-9740-bce4ad0898e8'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '8dc2d56e-d3d5-4582-8577-cfe100b68b94'
+    parameters:
+      param0: &id001 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '64021cbb-aa4d-43e1-9740-bce4ad0898e8'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setoperating_system
+  $$getprocessor_maker_name: &id025 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '44e7f6d3-9901-4dc2-82a5-a25ba162ba4a'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '03ce9237-3422-4c5a-a621-0177fb569ac3'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '44e7f6d3-9901-4dc2-82a5-a25ba162ba4a'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id007 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.str
+      typeName: null
+    signature: $$getprocessor_maker_name
+  $$getlimited_power: &id036 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '9c3d5f97-b6df-4bb7-bc25-6bf6ec036d03'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'b53f350a-6b65-4974-acae-b42b7c6911d3'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '9c3d5f97-b6df-4bb7-bc25-6bf6ec036d03'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id003 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: Z
+      typeName: null
+    signature: $$getlimited_power
+  _to_dict: &id023 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '1aef08d4-e51a-4c5e-87ca-9778c44fe8e6'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'e4b68b15-9cf7-4c13-9eea-4e9709553613'
+    parameters:
+      fields: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.list[str]
+        typeName: null
+    paramsOrder: [fields]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '1aef08d4-e51a-4c5e-87ca-9778c44fe8e6'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: _to_dict
+  $$getoperating_system: &id031 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '6d492db2-ea6d-4a4f-9c60-b17d8afba529'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '03d4250f-5b32-4e6c-a730-1698e4f6f0dd'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '6d492db2-ea6d-4a4f-9c60-b17d8afba529'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id001
+    signature: $$getoperating_system
+  $$gettotal_num_cores: &id013 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '6126ebb7-c5b5-4b68-876d-80eafe946777'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '2491ecfa-b523-49fd-9ef6-943c9d8777de'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '6126ebb7-c5b5-4b68-876d-80eafe946777'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id002 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: J
+      typeName: null
+    signature: $$gettotal_num_cores
+  $$setnum_CPUs: &id012 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '2a5144b2-d63e-4699-a970-66229d92b9bd'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '78e23ecf-0d2c-4d42-b3d4-335818cd8561'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '2a5144b2-d63e-4699-a970-66229d92b9bd'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setnum_CPUs
+  $$getprocessor_architecture: &id018 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'fe89e188-4375-43e1-8dd6-6084af7458ab'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '37a03d66-a5dc-4068-ad64-86cb91a87af7'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'fe89e188-4375-43e1-8dd6-6084af7458ab'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id005 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.str
+      typeName: null
+    signature: $$getprocessor_architecture
+  $$getCPU_info: &id027 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '371a8375-08eb-4ccb-b79e-8f76540cc286'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '287e76bf-b117-4373-87fc-10c0dd9ff864'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '371a8375-08eb-4ccb-b79e-8f76540cc286'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id004 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.str
+      typeName: null
+    signature: $$getCPU_info
+  $$setlimited_power: &id017 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '2c3a1f6e-ba2c-4d05-ac94-73b62c4359ca'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'e05ec5af-6670-4707-abeb-3801cd93be13'
+    parameters:
+      param0: *id003
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '2c3a1f6e-ba2c-4d05-ac94-73b62c4359ca'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setlimited_power
+  to_dict: &id019 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '01f1c260-d9f4-45ef-8b38-f8681c2cf8ab'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '4a12a79a-c9b7-4ab9-a151-7edab75a2511'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '01f1c260-d9f4-45ef-8b38-f8681c2cf8ab'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: to_dict
+  $$settotal_RAM_size: &id034 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '176cc1f0-de75-44b5-9976-9201a2d2a65c'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'c4576e73-f0ed-480e-b69b-906beea26b2f'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '176cc1f0-de75-44b5-9976-9201a2d2a65c'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$settotal_RAM_size
+  $$setCPU_info: &id020 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '619786b9-a1d3-472c-b9cc-cc676c4c02c8'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'dfc15e47-c26c-418b-ac25-c0709a27b49a'
+    parameters:
+      param0: *id004
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '619786b9-a1d3-472c-b9cc-cc676c4c02c8'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setCPU_info
+  $$gettotal_RAM_size: &id039 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'ba523321-44d4-41d6-bf0d-dbcb84bf5003'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '961890ab-f51c-49df-98d4-ef8e46628276'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'ba523321-44d4-41d6-bf0d-dbcb84bf5003'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id002
+    signature: $$gettotal_RAM_size
+  $$settotal_num_cores: &id024 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '2a751f1a-26ea-43ce-beed-aece583b18b5'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '5324fea2-3896-480f-91a7-ed86e18a79a1'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '2a751f1a-26ea-43ce-beed-aece583b18b5'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$settotal_num_cores
+  $$setgraphics_card_info: &id014 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'fa416ff5-dcdb-4e3c-aaca-60e7b8d0fce1'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '3b04186c-a20a-4f9b-abd9-d89ccc3deef4'
+    parameters:
+      param0: &id009 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'fa416ff5-dcdb-4e3c-aaca-60e7b8d0fce1'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setgraphics_card_info
+  $$setprocessor_architecture: &id028 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '0d444e45-b521-411f-80a1-d5537e4a4ab0'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '83602c9d-e3fc-4e9c-9b8d-e2cf6bd68b6b'
+    parameters:
+      param0: *id005
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '0d444e45-b521-411f-80a1-d5537e4a4ab0'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setprocessor_architecture
+  $$getnum_CPUs: &id040 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '7c02737f-490d-49e1-be8f-38505c48db12'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '3634d1f9-d067-4429-ab52-72518ece837f'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '7c02737f-490d-49e1-be8f-38505c48db12'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id002
+    signature: $$getnum_CPUs
+  $$setCPU_clock_speed: &id030 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'e72cc1db-8ae5-479c-a732-fd5d6c87adcd'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '51eb5661-7992-4e2a-bd4d-6908a5009abd'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'e72cc1db-8ae5-479c-a732-fd5d6c87adcd'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setCPU_clock_speed
+  $$getsystem_architecture: &id038 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '9017d4d8-fc3a-41f1-855d-a6776e1320a2'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'a6057772-0c3c-44a8-8ab0-448a140e3a24'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '9017d4d8-fc3a-41f1-855d-a6776e1320a2'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id006
+    signature: $$getsystem_architecture
+  $$getCPU_clock_speed: &id029 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '6c7cab37-6dad-4a9c-9c54-39152dc41923'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '02830d48-d18e-48a2-a43b-4d77466ad675'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '6c7cab37-6dad-4a9c-9c54-39152dc41923'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id002
+    signature: $$getCPU_clock_speed
+  $$setprocessor_maker_name: &id032 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '3881b02e-c118-4077-8355-4378352ea25a'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '09ed2958-f250-46cc-a373-75323ef60a6a'
+    parameters:
+      param0: *id007
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '3881b02e-c118-4077-8355-4378352ea25a'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setprocessor_maker_name
+  $$settotal_storage_size: &id011 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '216d01a7-0fe1-4ef9-b5b6-e9e816c3010a'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'a98803a3-05d7-4f54-b359-8bc1a7f86258'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '216d01a7-0fe1-4ef9-b5b6-e9e816c3010a'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$settotal_storage_size
+  __setUpdate__: &id015 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '240650c7-1cfa-4ef3-82ee-18ac2bfee06c'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'c3d2aff8-b0f5-4961-8187-4f7580a37235'
+    parameters:
+      afterUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      beforeUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      obj: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+      property_name: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      value: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+    paramsOrder: [obj, property_name, value, beforeUpdate, afterUpdate]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '240650c7-1cfa-4ef3-82ee-18ac2bfee06c'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id008 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: V
+      typeName: null
+    signature: __setUpdate__
+  $$gettotal_storage_size: &id026 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'be205abc-dd0e-4bde-8b7b-dbf3989558ca'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'e9844e8e-bf3b-4f2f-93da-f641fbfcd9c4'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'be205abc-dd0e-4bde-8b7b-dbf3989558ca'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id002
+    signature: $$gettotal_storage_size
+  $$sethwloc: &id037 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'fc6e20f9-ca9f-4c59-9ff0-e9d97adc7798'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '45ff44db-d02d-4237-8adc-63aa318392f1'
+    parameters:
+      param0: &id010 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'fc6e20f9-ca9f-4c59-9ff0-e9d97adc7798'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$sethwloc
+  __init__: &id016 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'b62709ad-4f69-4710-84f8-f7b4ce03c98d'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'd7de5fb4-97d1-4f95-9ada-2c62d0c89562'
+    parameters:
+      CPU_speed: *id002
+      RAM_size: *id002
+      arch: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      graphics_card: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      limited: *id003
+      num_CPUs: *id002
+      os: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      proc_arch: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      proc_maker: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      storage_size: *id002
+      total_cores: *id002
+    paramsOrder: [os, arch, proc_maker, proc_arch, num_CPUs, CPU_speed, total_cores,
+      RAM_size, storage_size, limited, graphics_card]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'b62709ad-4f69-4710-84f8-f7b4ce03c98d'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id008
+    signature: __init__
+  $$getgraphics_card_info: &id033 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID 'e853c319-8706-4a62-93c1-297e88685434'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '8e6a25df-cdf0-4579-8b9f-049f0e4792e2'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'e853c319-8706-4a62-93c1-297e88685434'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id009
+    signature: $$getgraphics_card_info
+  $$gethwloc: &id035 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.StaticInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID 'f7128d97-7365-463e-84cd-a645022d76f1'
+    localImplID: !!dataclay.util.ids.ImplementationID '3bc83e04-f71b-47d8-85e1-508664f352ea'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '3d90b25e-6069-4fcc-b8f0-92bd504f78c0'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '3bc83e04-f71b-47d8-85e1-508664f352ea'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id010
+    signature: $$gethwloc
+implementationsByID:
+  216d01a7-0fe1-4ef9-b5b6-e9e816c3010a: *id011
+  2a5144b2-d63e-4699-a970-66229d92b9bd: *id012
+  6126ebb7-c5b5-4b68-876d-80eafe946777: *id013
+  fa416ff5-dcdb-4e3c-aaca-60e7b8d0fce1: *id014
+  240650c7-1cfa-4ef3-82ee-18ac2bfee06c: *id015
+  b62709ad-4f69-4710-84f8-f7b4ce03c98d: *id016
+  2c3a1f6e-ba2c-4d05-ac94-73b62c4359ca: *id017
+  fe89e188-4375-43e1-8dd6-6084af7458ab: *id018
+  01f1c260-d9f4-45ef-8b38-f8681c2cf8ab: *id019
+  619786b9-a1d3-472c-b9cc-cc676c4c02c8: *id020
+  0f147080-1c90-4f5b-baf5-017d48893143: *id021
+  64021cbb-aa4d-43e1-9740-bce4ad0898e8: *id022
+  1aef08d4-e51a-4c5e-87ca-9778c44fe8e6: *id023
+  2a751f1a-26ea-43ce-beed-aece583b18b5: *id024
+  44e7f6d3-9901-4dc2-82a5-a25ba162ba4a: *id025
+  be205abc-dd0e-4bde-8b7b-dbf3989558ca: *id026
+  371a8375-08eb-4ccb-b79e-8f76540cc286: *id027
+  0d444e45-b521-411f-80a1-d5537e4a4ab0: *id028
+  6c7cab37-6dad-4a9c-9c54-39152dc41923: *id029
+  e72cc1db-8ae5-479c-a732-fd5d6c87adcd: *id030
+  6d492db2-ea6d-4a4f-9c60-b17d8afba529: *id031
+  3881b02e-c118-4077-8355-4378352ea25a: *id032
+  e853c319-8706-4a62-93c1-297e88685434: *id033
+  176cc1f0-de75-44b5-9976-9201a2d2a65c: *id034
+  3bc83e04-f71b-47d8-85e1-508664f352ea: *id035
+  9c3d5f97-b6df-4bb7-bc25-6bf6ec036d03: *id036
+  fc6e20f9-ca9f-4c59-9ff0-e9d97adc7798: *id037
+  9017d4d8-fc3a-41f1-855d-a6776e1320a2: *id038
+  ba523321-44d4-41d6-bf0d-dbcb84bf5003: *id039
+  7c02737f-490d-49e1-be8f-38505c48db12: *id040
+namespace: model_mf2c
+namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+parentClassName: null
+properties:
+  hwloc: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '3d90b25e-6069-4fcc-b8f0-92bd504f78c0'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '840ce89c-fd1f-4f1b-80b9-29862075c929'
+    propertyName: hwloc
+    propertyType: *id010
+    setterOperationID: !!dataclay.util.ids.OperationID '45ff44db-d02d-4237-8adc-63aa318392f1'
+  processor_architecture: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '37a03d66-a5dc-4068-ad64-86cb91a87af7'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'fe7b1938-721c-4202-888a-ae7e2c2470dc'
+    propertyName: processor_architecture
+    propertyType: *id005
+    setterOperationID: !!dataclay.util.ids.OperationID '83602c9d-e3fc-4e9c-9b8d-e2cf6bd68b6b'
+  limited_power: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID 'b53f350a-6b65-4974-acae-b42b7c6911d3'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '0a3098d6-398b-4984-aa91-45de92dc2c21'
+    propertyName: limited_power
+    propertyType: *id003
+    setterOperationID: !!dataclay.util.ids.OperationID 'e05ec5af-6670-4707-abeb-3801cd93be13'
+  CPU_clock_speed: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '02830d48-d18e-48a2-a43b-4d77466ad675'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '2835437c-761e-4d5a-bc18-8f1c971c9358'
+    propertyName: CPU_clock_speed
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID '51eb5661-7992-4e2a-bd4d-6908a5009abd'
+  graphics_card_info: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '8e6a25df-cdf0-4579-8b9f-049f0e4792e2'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '5f3336fa-c6e2-47f4-960d-3e3998bd0096'
+    propertyName: graphics_card_info
+    propertyType: *id009
+    setterOperationID: !!dataclay.util.ids.OperationID '3b04186c-a20a-4f9b-abd9-d89ccc3deef4'
+  total_storage_size: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID 'e9844e8e-bf3b-4f2f-93da-f641fbfcd9c4'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '64f0e91c-5db2-41a7-a570-2966661f787b'
+    propertyName: total_storage_size
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID 'a98803a3-05d7-4f54-b359-8bc1a7f86258'
+  num_CPUs: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '3634d1f9-d067-4429-ab52-72518ece837f'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '9732b4e5-1a0d-437c-99f3-9b8d5343e62a'
+    propertyName: num_CPUs
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID '78e23ecf-0d2c-4d42-b3d4-335818cd8561'
+  system_architecture: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID 'a6057772-0c3c-44a8-8ab0-448a140e3a24'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '5f6326b0-63e8-4240-913d-3659878db4cf'
+    propertyName: system_architecture
+    propertyType: *id006
+    setterOperationID: !!dataclay.util.ids.OperationID '3964c9fa-dd88-4b5c-820f-0dd96ee843b6'
+  processor_maker_name: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '03ce9237-3422-4c5a-a621-0177fb569ac3'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '2c701bd0-39b7-4974-a63f-dbf34fc86776'
+    propertyName: processor_maker_name
+    propertyType: *id007
+    setterOperationID: !!dataclay.util.ids.OperationID '09ed2958-f250-46cc-a373-75323ef60a6a'
+  operating_system: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '03d4250f-5b32-4e6c-a730-1698e4f6f0dd'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'b0b7b744-5ce9-4674-8c44-d0b8d963483e'
+    propertyName: operating_system
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID '8dc2d56e-d3d5-4582-8577-cfe100b68b94'
+  total_RAM_size: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '961890ab-f51c-49df-98d4-ef8e46628276'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'f10675fb-92f3-411e-8fd7-b6922a9ddda0'
+    propertyName: total_RAM_size
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID 'c4576e73-f0ed-480e-b69b-906beea26b2f'
+  CPU_info: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '287e76bf-b117-4373-87fc-10c0dd9ff864'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'dad91e8c-cdaa-4496-91f1-0730e7755703'
+    propertyName: CPU_info
+    propertyType: *id004
+    setterOperationID: !!dataclay.util.ids.OperationID 'dfc15e47-c26c-418b-ac25-c0709a27b49a'
+  total_num_cores: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '2491ecfa-b523-49fd-9ef6-943c9d8777de'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '14c7253f-7799-42e1-993f-6c898ddd587a'
+    propertyName: total_num_cores
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID '5324fea2-3896-480f-91a7-ed86e18a79a1'
+propertyListWithNulls: [operating_system, system_architecture, processor_maker_name,
+  processor_architecture, num_CPUs, CPU_clock_speed, total_num_cores, total_RAM_size,
+  total_storage_size, limited_power, graphics_card_info, CPU_info, hwloc]

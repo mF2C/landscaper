@@ -1,0 +1,370 @@
+!!dataclay.util.management.stubs.StubInfo
+applicantID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+classID: !!dataclay.util.ids.MetaClassID 'cb3c702d-e6ce-4242-830e-d91e6e2bb96f'
+className: classes.BehaviourInfo
+contracts: !!set {!!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280': null}
+implementations:
+  $$getleader_capable: &id012 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '5252e91b-907a-47ef-97a5-7592f34a083a'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '4357cb3c-ca1b-44e7-b87f-8a9310e9e4c2'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '5252e91b-907a-47ef-97a5-7592f34a083a'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id001 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: Z
+      typeName: null
+    signature: $$getleader_capable
+  $$getmobile: &id005 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '97754136-598d-4f5a-a9bd-658879be7d3b'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '3513aa68-2876-48e5-803f-89f8695e35f5'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '97754136-598d-4f5a-a9bd-658879be7d3b'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id001
+    signature: $$getmobile
+  $$getreliability: &id015 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '6e79ee85-0755-4e73-a435-bb7567c66e60'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '77dc704b-53e8-4246-8d12-2a8d9a530f59'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '6e79ee85-0755-4e73-a435-bb7567c66e60'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id002 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.str
+      typeName: null
+    signature: $$getreliability
+  $$setreliability: &id016 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '5b3eafcd-e9a5-44ca-9ab2-dc07e64ae9c0'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '1799285e-fe9c-4822-a71a-003ea69479a4'
+    parameters:
+      param0: *id002
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '5b3eafcd-e9a5-44ca-9ab2-dc07e64ae9c0'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setreliability
+  __setUpdate__: &id010 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '0b48625a-e64e-4aca-bed2-fa1364d52957'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '072c2401-3536-4552-9bb6-45a3f9723909'
+    parameters:
+      afterUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      beforeUpdate: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      obj: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+      property_name: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      value: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: anything
+        typeName: null
+    paramsOrder: [obj, property_name, value, beforeUpdate, afterUpdate]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '0b48625a-e64e-4aca-bed2-fa1364d52957'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: &id003 !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: V
+      typeName: null
+    signature: __setUpdate__
+  $$setleader_capable: &id014 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID 'bc04cfae-52d6-4ee5-a72b-d64b14add07e'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '8d1deb47-03c5-440b-b89f-5fadf91ed0ef'
+    parameters:
+      param0: *id001
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID 'bc04cfae-52d6-4ee5-a72b-d64b14add07e'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setleader_capable
+  $$setmobile: &id013 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '67d77751-abae-418f-af4d-4626221ed709'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '86701236-7764-4c98-bc9f-e87202bdb4fb'
+    parameters:
+      param0: *id001
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '67d77751-abae-418f-af4d-4626221ed709'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$setmobile
+  __init__: &id008 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '15d222b8-3370-4ff9-9a47-98357af6687c'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '53049d50-0536-4162-89b0-4d0ac77d7f25'
+    parameters:
+      leader_capable: *id001
+      mobile: *id001
+      reliability: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+      trust: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [mobile, reliability, trust, leader_capable]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '15d222b8-3370-4ff9-9a47-98357af6687c'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id003
+    signature: __init__
+  to_dict: &id006 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '0a76843a-e572-432c-b4f0-f0808701a89e'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '93ba69d5-fec8-44c0-b20f-f402f9f16b88'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '0a76843a-e572-432c-b4f0-f0808701a89e'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: to_dict
+  $$settrust: &id007 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '7d84c11f-3257-4656-97dc-10b6a952b05e'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID '93247549-5117-4403-bdd3-658e6ef0a1ec'
+    parameters:
+      param0: &id004 !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.str
+        typeName: null
+    paramsOrder: [param0]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '7d84c11f-3257-4656-97dc-10b6a952b05e'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: V
+      id: null
+      includes: null
+      languageDepInfos: {}
+      signature: null
+      typeName: void
+    signature: $$settrust
+  _to_dict: &id011 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '76939f6d-1c75-4e4a-9e40-25d2f80b36eb'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'e0f130f8-6473-4fcb-a4b4-7d8ef39cba39'
+    parameters:
+      fields: !!dataclay.util.management.classmgr.Type
+        descriptor: null
+        id: null
+        includes: []
+        languageDepInfos: null
+        signature: python.list[str]
+        typeName: null
+    paramsOrder: [fields]
+    remoteImplID: !!dataclay.util.ids.ImplementationID '76939f6d-1c75-4e4a-9e40-25d2f80b36eb'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: !!dataclay.util.management.classmgr.Type
+      descriptor: null
+      id: null
+      includes: []
+      languageDepInfos: null
+      signature: python.dict
+      typeName: null
+    signature: _to_dict
+  $$gettrust: &id009 !!dataclay.util.management.stubs.ImplementationStubInfo
+    className: classes.BehaviourInfo
+    contractID: !!dataclay.util.ids.ContractID 'b3e3b194-8781-406b-88e1-4f1bad007280'
+    implPosition: 0
+    interfaceID: !!dataclay.util.ids.InterfaceID '677d463b-9320-4d63-a410-fcef75300766'
+    localImplID: !!dataclay.util.ids.ImplementationID '259fabdf-4f85-4915-82d2-e7460c5930b0'
+    namespace: model_mf2c
+    namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+    operationID: !!dataclay.util.ids.OperationID 'ee67b8b6-c2cc-4305-8f2a-f585a81cfd32'
+    parameters: {}
+    paramsOrder: []
+    remoteImplID: !!dataclay.util.ids.ImplementationID '259fabdf-4f85-4915-82d2-e7460c5930b0'
+    responsibleRemoteAccountID: !!dataclay.util.ids.AccountID '9886aa3f-a744-4653-8b9c-6334af377c12'
+    returnType: *id004
+    signature: $$gettrust
+implementationsByID:
+  97754136-598d-4f5a-a9bd-658879be7d3b: *id005
+  0a76843a-e572-432c-b4f0-f0808701a89e: *id006
+  7d84c11f-3257-4656-97dc-10b6a952b05e: *id007
+  15d222b8-3370-4ff9-9a47-98357af6687c: *id008
+  259fabdf-4f85-4915-82d2-e7460c5930b0: *id009
+  0b48625a-e64e-4aca-bed2-fa1364d52957: *id010
+  76939f6d-1c75-4e4a-9e40-25d2f80b36eb: *id011
+  5252e91b-907a-47ef-97a5-7592f34a083a: *id012
+  67d77751-abae-418f-af4d-4626221ed709: *id013
+  bc04cfae-52d6-4ee5-a72b-d64b14add07e: *id014
+  6e79ee85-0755-4e73-a435-bb7567c66e60: *id015
+  5b3eafcd-e9a5-44ca-9ab2-dc07e64ae9c0: *id016
+namespace: model_mf2c
+namespaceID: !!dataclay.util.ids.NamespaceID '3d3831e6-f6a0-4a45-820a-37312eb33c4c'
+parentClassName: null
+properties:
+  trust: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID 'ee67b8b6-c2cc-4305-8f2a-f585a81cfd32'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '9aa294a1-0dc2-4740-af6f-f4f63d87a367'
+    propertyName: trust
+    propertyType: *id004
+    setterOperationID: !!dataclay.util.ids.OperationID '93247549-5117-4403-bdd3-658e6ef0a1ec'
+  reliability: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '77dc704b-53e8-4246-8d12-2a8d9a530f59'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '26a5ca67-de4b-4998-8c57-4f5bc849b7de'
+    propertyName: reliability
+    propertyType: *id002
+    setterOperationID: !!dataclay.util.ids.OperationID '1799285e-fe9c-4822-a71a-003ea69479a4'
+  leader_capable: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '4357cb3c-ca1b-44e7-b87f-8a9310e9e4c2'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID '246b745d-39d0-4b5f-885e-ad5d529fad29'
+    propertyName: leader_capable
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID '8d1deb47-03c5-440b-b89f-5fadf91ed0ef'
+  mobile: !!dataclay.util.management.stubs.PropertyStubInfo
+    afterUpdate: null
+    beforeUpdate: null
+    getterOperationID: !!dataclay.util.ids.OperationID '3513aa68-2876-48e5-803f-89f8695e35f5'
+    inMaster: false
+    namespace: model_mf2c
+    namespaceID: null
+    propertyID: !!dataclay.util.ids.PropertyID 'afe62ad2-4c0c-455e-ab41-bd40fb2fad81'
+    propertyName: mobile
+    propertyType: *id001
+    setterOperationID: !!dataclay.util.ids.OperationID '86701236-7764-4c98-bc9f-e87202bdb4fb'
+propertyListWithNulls: [mobile, reliability, trust, leader_capable]

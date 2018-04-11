@@ -1,0 +1,52 @@
+# dataClay header
+# This is a Stub, to be used for the user client
+from dataclay import dclayMethod, DataClayObject
+
+# Imports required by the following class
+
+# Definition of dataClay object class: StaticInfo
+class StaticInfo(DataClayObject):
+
+    @dclayMethod(fields="list<str>", return_="dict")
+    def _to_dict(self, fields):
+        return {field: self.__getattribute__(field) for field in fields}
+    @dclayMethod(return_="dict")
+    def to_dict(self):
+        fields = [
+            "operating_system",
+            "system_architecture",
+            "processor_maker_name",
+            "processor_architecture",
+            "num_CPUs",
+            "CPU_clock_speed",
+            "total_num_cores",
+            "total_RAM_size",
+            "total_storage_size",
+            "limited_power",
+            "graphics_card_info"
+        ]
+        return self._to_dict(fields)
+    @dclayMethod(os="str", arch="str", proc_maker="str", proc_arch="str", num_CPUs="int", CPU_speed="int", total_cores="int", RAM_size="int", storage_size="int", limited="bool", graphics_card="str")
+    def __init__(self, os, arch, proc_maker, proc_arch, num_CPUs, CPU_speed, total_cores, RAM_size, storage_size, limited, graphics_card):
+        self.operating_system = os
+        self.system_architecture = arch
+        self.processor_maker_name = proc_maker
+        self.processor_architecture = proc_arch
+        self.num_CPUs = num_CPUs
+        self.CPU_clock_speed = CPU_speed
+        self.total_num_cores = total_cores
+        self.total_RAM_size = RAM_size
+        self.total_storage_size = storage_size
+        self.limited_power = limited
+        self.graphics_card_info = graphics_card
+        self.CPU_info = None
+        self.hwloc = None
+    @dclayMethod(obj='anything', property_name='str', value='anything', beforeUpdate='str', afterUpdate='str')
+    def __setUpdate__(self, obj, property_name, value, beforeUpdate, afterUpdate):
+        if beforeUpdate is not None:
+            getattr(self, beforeUpdate)(property_name, value)
+        object.__setattr__(obj, "%s%s" % ("_dataclay_property_", property_name), value)
+        if afterUpdate is not None:
+            getattr(self, afterUpdate)(property_name, value)
+    pass
+# End of class definition
